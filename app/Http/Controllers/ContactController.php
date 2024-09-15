@@ -27,7 +27,7 @@ class ContactController extends Controller
 
         // dd($mailData);
 
-        Mail::to('anuku24d@gmail.com')->send(new ContactFormMail(
+        Mail::to('info@aimsalbertalogistics.com')->send(new ContactFormMail(
           $mailData
         ));
 
