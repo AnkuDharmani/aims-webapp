@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,4 @@ Route::get('/contact', [SiteController::class, 'contact']);
 Route::get('/price', [SiteController::class, 'price']);
 Route::get('/service', [SiteController::class, 'service']);
 Route::get('/single', [SiteController::class, 'single']);
+Route::post('/send-contact', [ContactController::class, 'send'])->name('contact.send');
