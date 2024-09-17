@@ -1,7 +1,7 @@
 $(function () {
-    var contactFormUrl = "{{ route('contact.send') }}";
+    //var contactFormUrl = "{{ route('contact.send') }}";
 
-    $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
+    $("#contactForm_e input, #contactForm_e textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function ($form, event, errors) {
             // Handle form submission errors here
@@ -11,18 +11,19 @@ $(function () {
 
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var route = $("input#route").val();
             var subject = $("input#subject").val();
-            var message = $("textarea#message").val();
+            var message = $("input#_token").val();
+
+            var token = $("textarea#message").val();
 
             var $this = $("#sendMessageButton");
             $this.prop("disabled", true);
 
             $.ajax({
-                url: route,
+                url: contactFormUrl,
                 type: "POST",
                 data: {
-                    _token: "{{ csrf_token() }}",
+                   // _token: "{{ csrf_token() }}",
                     name: name,
                     email: email,
                     subject: subject,

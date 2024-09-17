@@ -31,33 +31,50 @@
                 <h1 class="mb-4">Contact For Any Queries</h1>
                 <div class="contact-form bg-secondary" style="padding: 30px;">
                     <div id="success"></div>
-                    <form name="sentMessage" action="{{ route('contact.send') }}" method="POST"
-                        novalidate="novalidate">
-                        <input hidden value="{{ route('contact.send') }}" name="route" id="route">
+                    <form name="sentMessage" action="{{ route('contact.send') }}" id="contactForm" method="POST">
                         @csrf
                         <div class="form-group">
-                            <input type="text" class="form-control border-0 p-4" id="name" name="name"
-                                placeholder="Your Name" required="required" />
-                            <div class="invalid-feedback">Please enter your name.</div>
+                            <input type="text" class="form-control border-0 p-4 @error('name') is-invalid @enderror" id="name" name="name"
+                                placeholder="Your Name" value="{{ old('name') }}" />
+                            @error('name')
+                                <div class="invalid-feedback">{{ $message }}</div>
+                            @else
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            @enderror
                         </div>
+
                         <div class="form-group">
-                            <input type="email" class="form-control border-0 p-4" id="email" name="email"
-                                placeholder="Your Email" required="required" />
-                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                            <input type="email" class="form-control border-0 p-4 @error('email') is-invalid @enderror" id="email" name="email"
+                                placeholder="Your Email" value="{{ old('email') }}" />
+                            @error('email')
+                                <div class="invalid-feedback">{{ $message }}</div>
+                            @else
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            @enderror
                         </div>
+
                         <div class="form-group">
-                            <input type="text" class="form-control border-0 p-4" id="subject" name="subject"
-                                placeholder="Subject" required="required" />
-                            <div class="invalid-feedback">Please enter a subject.</div>
+                            <input type="text" class="form-control border-0 p-4 @error('subject') is-invalid @enderror" id="subject" name="subject"
+                                placeholder="Subject" value="{{ old('subject') }}" />
+                            @error('subject')
+                                <div class="invalid-feedback">{{ $message }}</div>
+                            @else
+                                <div class="invalid-feedback">Please enter a subject.</div>
+                            @enderror
                         </div>
+
                         <div class="form-group">
-                            <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" name="message" placeholder="Message"
-                                required="required"></textarea>
-                            <div class="invalid-feedback">Please enter your message.</div>
+                            <textarea class="form-control border-0 py-3 px-4 @error('message') is-invalid @enderror" rows="3" id="message" name="message"
+                                placeholder="Message">{{ old('message') }}</textarea>
+                            @error('message')
+                                <div class="invalid-feedback">{{ $message }}</div>
+                            @else
+                                <div class="invalid-feedback">Please enter your message.</div>
+                            @enderror
                         </div>
-                        <div>
-                            <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send
-                                Message</button>
+
+                        <div class="form-group">
+                            <input class="form-control btn btn-primary" type="submit" id="sendMessageButton" value="Send Message">
                         </div>
                     </form>
 
