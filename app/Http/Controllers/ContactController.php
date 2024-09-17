@@ -18,7 +18,7 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        if ($validationFails) {
+        if ($validated) {
             throw ValidationException::withMessages([
                 'name' => ['Your custom error message for the name field'],
                 'email' => ['Your custom error message for the email field'],
