@@ -27,10 +27,11 @@
             <div class="col-lg-7">
                 <h6 class="text-primary text-uppercase font-weight-bold">About Us</h6>
                 <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1>
-                <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum
-                    labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et
-                    erat sed diam duo</p>
-
+                <p class="mb-4">At Aims Alberta Logistics, we specialize in providing efficient and reliable logistics solutions tailored to meet the unique needs of our clients. With years of experience in the industry, our dedicated team is committed to ensuring timely deliveries, streamlined operations, and exceptional customer service</p>
+                <p class="mb-4">We utilize advanced technology and a robust network to optimize your supply chain, making transportation and warehousing seamless. Whether you're a small business or a large corporation, we pride ourselves on delivering innovative solutions that drive your success.
+</p>
+<p>
+Join us on the journey to enhance your logistics experience. Your satisfaction is our priority!</p>
             </div>
         </div>
     </div>
@@ -66,9 +67,7 @@
             <div class="col-lg-7 py-5 py-lg-0">
                 <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
                 <h1 class="mb-4">Faster, Safe and Trusted Logistics Services</h1>
-                <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum
-                    labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et
-                    erat sed diam duo</p>
+                <p class="mb-4">we stand out with our commitment to excellence, reliability, and customer-focused solutions. With a global network, cutting-edge technology, and a team of logistics experts, we ensure your shipments are handled with precision and care. Whether by air, sea, or land, we provide tailored solutions to meet your needs and deliver on time, every time. Trust us to keep your business moving smoothly.</p>
                 <ul class="list-inline">
                     <li>
                         <h6><i class="far fa-dot-circle text-primary mr-3"></i>Best In Industry</h6>
@@ -100,7 +99,7 @@
                     <img class="card-img-top" src="img/team-1.jpg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Full Name</h5>
+                            <h5 class="font-weight-bold">Gagan Deep</h5>
                             <span>Designation</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
@@ -121,7 +120,7 @@
                     <img class="card-img-top" src="img/team-2.jpg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Full Name</h5>
+                            <h5 class="font-weight-bold">Sahil Dharmani</h5>
                             <span>Designation</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
@@ -142,7 +141,7 @@
                     <img class="card-img-top" src="img/team-3.jpg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Full Name</h5>
+                            <h5 class="font-weight-bold">Rosi</h5>
                             <span>Designation</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
@@ -163,7 +162,7 @@
                     <img class="card-img-top" src="img/team-4.jpg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Full Name</h5>
+                            <h5 class="font-weight-bold">Lalit</h5>
                             <span>Designation</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
