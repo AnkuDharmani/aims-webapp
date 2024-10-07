@@ -139,7 +139,7 @@
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0">Flexible Fleet Solutions</h6>
+                    <h6 class="text-white font-weight-medium m-0">Customizable Fleet Services</h6>
                 </div>
                 <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
                     requirements. </p>
@@ -149,19 +149,18 @@
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0">Flexible Fleet Solutions</h6>
+                    <h6 class="text-white font-weight-medium m-0">Customer-Centric Approach </h6>
                 </div>
-                <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
-                    requirements. </p>
+                <p>At Aims Alberta Logistics, we prioritize customer satisfaction. Our team goes the extra mile to
+                    ensure a seamless delivery experience. </p>
                 {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0">Flexible Fleet Solutions</h6>
+                    <h6 class="text-white font-weight-medium m-0">Advanced Route Optimization</h6>
                 </div>
-                <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
-                    requirements. </p>
+                <p>Our logistics experts use cutting-edge technology to plan and optimize delivery routes. </p>
                 {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
 
@@ -181,21 +180,21 @@
             </div>
             <div class="col-lg-7 py-5 py-lg-0">
                 <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
-                <h1 class="mb-4">Faster, Safe and Trusted Logistics Services</h1>
-                <p class="mb-4">we stand out with our commitment to excellence, reliability, and customer-focused
-                    solutions. With a global network, cutting-edge technology, and a team of logistics experts, we
-                    ensure your shipments are handled with precision and care.</p>
+                <h1 class="mb-4">Reliable, Fast, and Trusted Logistics Partners</h1>
+                <p class="mb-4">With a focus on providing top-quality, secure, and timely logistics services, we
+                    ensure that your shipments are always handled with precision. Our commitment to reliability and
+                    customer satisfaction makes us a trusted partner for all your logistics needs.</p>
                 <ul class="list-inline">
                     <li>
-                        <h6><i class="far fa-dot-circle text-primary mr-3"></i>Best In Industry</h6>
+                        <h6><i class="far fa-dot-circle text-primary mr-3"></i>Top Tier Service</h6>
                     <li>
-                        <h6><i class="far fa-dot-circle text-primary mr-3"></i>Emergency Services</h6>
+                        <h6><i class="far fa-dot-circle text-primary mr-3"></i>Rapid Response Solutions</h6>
                     </li>
                     <li>
-                        <h6><i class="far fa-dot-circle text-primary mr-3"></i>24/7 Customer Support</h6>
+                        <h6><i class="far fa-dot-circle text-primary mr-3"></i>Round-the-Clock Assistance</h6>
                     </li>
                 </ul>
-                <a href="" class="btn btn-primary mt-3 py-2 px-4">Learn More</a>
+                {{-- <a href="" class="btn btn-primary mt-3 py-2 px-4">Learn More</a> --}}
             </div>
         </div>
     </div>
@@ -311,7 +310,7 @@
     <div class="container">
         <div class="text-center pb-2">
             <h6 class="text-primary text-uppercase font-weight-bold">Testimonial</h6>
-            <h1 class="mb-4">Our Clients Say</h1>
+            <h1 class="mb-4">Hear From Our Clients</h1>
         </div>
         <div class="owl-carousel testimonial-carousel">
             <div class="position-relative bg-secondary p-4">
@@ -320,11 +319,12 @@
                     <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Emily Bernier</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">Good experience</p>
+                <p class="m-0">Aims Alberta Logistics exceeded my expectations with their fast and reliable service!
+                </p>
             </div>
             <div class="position-relative bg-secondary p-4">
                 <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
@@ -332,11 +332,11 @@
                     <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Liam Brown</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">excellence in logistics</p>
+                <p class="m-0">Their team handled everything with care and professionalism. Highly recommend!</p>
             </div>
             <div class="position-relative bg-secondary p-4">
                 <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
@@ -344,11 +344,11 @@
                     <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Sophie Davis</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">Fast and relaible</p>
+                <p class="m-0">Efficient service and great communication. Will definitely approach them again!</p>
             </div>
             <div class="position-relative bg-secondary p-4">
                 <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
@@ -356,11 +356,11 @@
                     <img class="img-fluid rounded-circle" src="img/testimonial-4.jpg"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Noah Allen</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">Provide a very good service</p>
+                <p class="m-0">Top-notch logistics support, always on time and dependable!</p>
             </div>
         </div>
     </div>

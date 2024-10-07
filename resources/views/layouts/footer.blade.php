@@ -34,16 +34,17 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
-                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu
-                    kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
+                <h3 class="text-primary mb-4">About Aims Alberta Logistics </h3>
+                <p>Aims Alberta Logistics provides reliable, efficient, and innovative logistics solutions. Our
+                    dedicated team ensures timely deliveries and exceptional customer service, making us your trusted
+                    partner for all your logistics needs.</p>
                 <div class="w-100">
                     <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;"
+                        {{-- <input type="text" class="form-control border-light" style="padding: 30px;"
                             placeholder="Your Email Address">
                         <div class="input-group-append">
                             <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -59,8 +60,8 @@
             </div>
             <div class="col-lg-4 text-center text-md-left mb-3 mb-md-0">
                 <p class="m-0 text-white">
-                <i class="fa-solid fa-building"></i>    
-                Version: {{ env('APP_VERSION') }}
+                    <i class="fa-solid fa-building"></i>
+                    Version: {{ env('APP_VERSION') }}
 
                 </p>
             </div>
@@ -103,7 +104,7 @@
         var contactFormUrl = "{{ route('contact.send') }}";
     </script>
     <script src="{{ asset('mail/contact.js') }}"></script>
- 
+
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
 
