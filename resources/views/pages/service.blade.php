@@ -1,20 +1,20 @@
 @include('layouts.header')
 
-    <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid mb-5">
-        <div class="container text-center py-5">
-            <h1 class="text-white display-3">Service</h1>
-            <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
-                <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Service</p>
-            </div>
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid mb-5">
+    <div class="container text-center py-5">
+        <h1 class="text-white display-3">Service</h1>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="">Home</a></p>
+            <i class="fa fa-circle px-3"></i>
+            <p class="m-0">Service</p>
         </div>
     </div>
-    <!-- Header End -->
+</div>
+<!-- Header End -->
 
 
-    <!-- Services Start -->
+<!-- Services Start -->
 <div class="container-fluid pt-5">
     <div class="container">
         <div class="text-center pb-2">
@@ -22,68 +22,80 @@
             <h1 class="mb-4">Best Logistic Services</h1>
         </div>
         <div class="row pb-3">
-            <div class="col-lg-3 col-md-6 text-center mb-5">
+            <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                    <i class="fa fa-2x fa-plane text-dark pr-3"></i>
-                    <h6 class="text-white font-weight-medium m-0">Air Freight</h6>
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Dedicated Last-Mile Delivery
+                    </h6>
                 </div>
-                <p>Our air freight services offer fast, reliable, and secure transportation for your time-sensitive shipments. </p>
-                <a class="border-bottom text-decoration-none" href="">Read More</a>
+                <p>We provide specialized last-mile delivery services, ensuring your goods reach their final destination
+                    efficiently and on time.</p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
-            <div class="col-lg-3 col-md-6 text-center mb-5">
+
+            <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                    <i class="fa fa-2x fa-ship text-dark pr-3"></i>
-                    <h6 class="text-white font-weight-medium m-0">Ocean Freight</h6>
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Customizable Fleet Services
+                    </h6>
                 </div>
-                <p>Our ocean freight services provide cost-effective and dependable solutions for transporting large volumes of cargo worldwide.</p>
-                <a class="border-bottom text-decoration-none" href="">Read More</a>
+                <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
+                    requirements. </p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
-            <div class="col-lg-3 col-md-6 text-center mb-5">
+
+            <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                    <i class="fa fa-2x fa-truck text-dark pr-3"></i>
-                    <h6 class="text-white font-weight-medium m-0">Land Transport</h6>
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-larger m-0" style="font-size:larger">Customer-Centric Approach
+                    </h6>
                 </div>
-                <p>Our land transport services ensure reliable, efficient, and flexible delivery of goods across local and regional routes. </p>
-                <a class="border-bottom text-decoration-none" href="">Read More</a>
+                <p>At Aims Alberta Logistics, we prioritize customer satisfaction. Our team goes the extra mile to
+                    ensure a seamless delivery experience. </p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
-            <div class="col-lg-3 col-md-6 text-center mb-5">
+            <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                    <i class="fa fa-2x fa-store text-dark pr-3"></i>
-                    <h6 class="text-white font-weight-medium m-0">Cargo Storage</h6>
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Advanced Route Optimization
+                    </h6>
                 </div>
-                <p>Our secure and strategically located storage facilities provide flexible solutions for all your cargo needs.</p>
-                <a class="border-bottom text-decoration-none" href="">Read More</a>
+                <p>Our logistics experts use cutting-edge technology to plan and optimize delivery routes. </p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
+
         </div>
     </div>
 </div>
 <!-- Services End -->
 
 
-    <!--  Quote Request Start -->
+<!--  Quote Request Start -->
 <div class="container-fluid bg-secondary my-5">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7 py-5 py-lg-0">
+            <div class="col-lg-12 py-5 pt-py-lg-0 px-5">
                 <h6 class="text-primary text-uppercase font-weight-bold">Get A Quote</h6>
-                <h1 class="mb-4">Request A Free Quote</h1>
-                <p class="mb-4">Looking for reliable and cost-effective logistics solutions? Get in touch with us today! Simply fill out our form, and we’ll provide you with a customized quote tailored to your specific needs. No obligations, just seamless service and competitive pricing.</p>
+                <h1 class="mb-4">Start Your Journey with a Free Quote</h1>
+                <p class="mb-4">Ready to take your shipping to new heights? Our free quote process is your first step
+                    towards logistics mastery. Send us your details, and we’ll offer a tailored quote, absolutely free.
+                    No commitment—just exceptional service and fair pricing.</p>
                 <div class="row">
                     <div class="col-sm-4">
-                        <h1 class="text-primary mb-2" data-toggle="counter-up">225</h1>
+                        <h1 class="text-primary mb-2" data-toggle="counter-up">25</h1>
                         <h6 class="font-weight-bold mb-4">SKilled Experts</h6>
                     </div>
                     <div class="col-sm-4">
-                        <h1 class="text-primary mb-2" data-toggle="counter-up">1050</h1>
+                        <h1 class="text-primary mb-2" data-toggle="counter-up">100</h1>
                         <h6 class="font-weight-bold mb-4">Happy Clients</h6>
                     </div>
                     <div class="col-sm-4">
-                        <h1 class="text-primary mb-2" data-toggle="counter-up">2500</h1>
+                        <h1 class="text-primary mb-2" data-toggle="counter-up">250</h1>
                         <h6 class="font-weight-bold mb-4">Complete Projects</h6>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
+            {{-- <div class="col-lg-5">
                 <div class="bg-primary py-5 px-4 px-sm-5">
                     <form class="py-5">
                         <div class="form-group">
@@ -107,7 +119,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
@@ -119,56 +131,57 @@
     <div class="container">
         <div class="text-center pb-2">
             <h6 class="text-primary text-uppercase font-weight-bold">Testimonial</h6>
-            <h1 class="mb-4">Our Clients Say</h1>
+            <h1 class="mb-4">Hear From Our Clients</h1>
         </div>
         <div class="owl-carousel testimonial-carousel">
             <div class="position-relative bg-secondary p-4">
                 <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg"
-                        style="width: 60px; height: 60px;" alt="">
+                    <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;"
+                        alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Emily Bernier</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">Good experience</p>
+                <p class="m-0">Aims Alberta Logistics exceeded my expectations with their fast and reliable service!
+                </p>
             </div>
             <div class="position-relative bg-secondary p-4">
                 <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg"
-                        style="width: 60px; height: 60px;" alt="">
+                    <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;"
+                        alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Liam Brown</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">excellence in logistics</p>
+                <p class="m-0">Their team handled everything with care and professionalism. Highly recommend!</p>
             </div>
             <div class="position-relative bg-secondary p-4">
                 <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg"
-                        style="width: 60px; height: 60px;" alt="">
+                    <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;"
+                        alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Sophie Davis</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">Fast and relaible</p>
+                <p class="m-0">Efficient service and great communication. Will definitely approach them again!</p>
             </div>
             <div class="position-relative bg-secondary p-4">
                 <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid rounded-circle" src="img/testimonial-4.jpg"
-                        style="width: 60px; height: 60px;" alt="">
+                    <img class="img-fluid rounded-circle" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;"
+                        alt="">
                     <div class="ml-3">
-                        <h6 class="font-weight-semi-bold m-0">Client Name</h6>
+                        <h6 class="font-weight-semi-bold m-0">Noah Allen</h6>
                         <small>- Profession</small>
                     </div>
                 </div>
-                <p class="m-0">Provide a very good service</p>
+                <p class="m-0">Top-notch logistics support, always on time and dependable!</p>
             </div>
         </div>
     </div>
@@ -176,4 +189,4 @@
 <!-- Testimonial End -->
 
 
-    @include('layouts.footer') 
+@include('layouts.footer')

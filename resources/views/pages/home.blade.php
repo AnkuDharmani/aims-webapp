@@ -129,7 +129,8 @@
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0">Dedicated Last-Mile Delivery</h6>
+                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Dedicated Last-Mile Delivery
+                    </h6>
                 </div>
                 <p>We provide specialized last-mile delivery services, ensuring your goods reach their final destination
                     efficiently and on time.</p>
@@ -139,7 +140,8 @@
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0">Customizable Fleet Services</h6>
+                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Customizable Fleet Services
+                    </h6>
                 </div>
                 <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
                     requirements. </p>
@@ -149,7 +151,8 @@
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0">Customer-Centric Approach </h6>
+                    <h6 class="text-white font-weight-larger m-0" style="font-size:larger">Customer-Centric Approach
+                    </h6>
                 </div>
                 <p>At Aims Alberta Logistics, we prioritize customer satisfaction. Our team goes the extra mile to
                     ensure a seamless delivery experience. </p>
@@ -158,7 +161,8 @@
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0">Advanced Route Optimization</h6>
+                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Advanced Route Optimization
+                    </h6>
                 </div>
                 <p>Our logistics experts use cutting-edge technology to plan and optimize delivery routes. </p>
                 {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
@@ -217,11 +221,11 @@
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/team-1.jpg" alt="">
+                    <img class="card-img-top" src="img/drive1.jpeg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Gagan Deep</h5>
-                            <span>Designation</span>
+                            <h5 class="font-weight-bold">Antonio</h5>
+                            <span>Team Member</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                             <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
@@ -238,11 +242,11 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/team-2.jpg" alt="">
+                    <img class="card-img-top" src="img/drive2.jpeg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Sahil Dharmani</h5>
-                            <span>Designation</span>
+                            <h5 class="font-weight-bold">Johnson</h5>
+                            <span>Team Member</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                             <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
@@ -259,11 +263,11 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/team-3.jpg" alt="">
+                    <img class="card-img-top" src="img/drive3.jpeg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Rosi</h5>
-                            <span>Designation</span>
+                            <h5 class="font-weight-bold">Smith</h5>
+                            <span>Team Member</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                             <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
@@ -280,11 +284,11 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/team-4.jpg" alt="">
+                    <img class="card-img-top" src="img/drive4.jpeg" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                            <h5 class="font-weight-bold">Lalit</h5>
-                            <span>Designation</span>
+                            <h5 class="font-weight-bold">Jimmy</h5>
+                            <span>Team Member</span>
                         </div>
                         <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                             <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
