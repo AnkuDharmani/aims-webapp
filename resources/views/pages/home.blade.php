@@ -29,11 +29,11 @@
             </div>
             <div class="col-lg-7">
                 <h6 class="text-primary text-uppercase font-weight-bold">About Us</h6>
-                <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1>
-                <p class="mb-4">At Aims Alberta Logistics, we specialize in providing efficient and reliable logistics
-                    solutions tailored to meet the unique needs of our clients. With years of experience in the
-                    industry, our dedicated team is committed to ensuring timely deliveries, streamlined operations, and
-                    exceptional customer service</p>
+                <h1 class="mb-4">Trusted & Experienced Logistics Partner</h1>
+                <p class="mb-4">With over a decade of experience in the logistics industry, Aims Alberta Logistics has
+                    been a trusted partner for businesses across various sectors. Our team of experts is dedicated to
+                    providing efficient and reliable logistics solutions tailored to your unique needs. We pride
+                    ourselves on our commitment to excellence and our ability to deliver on time.</p>
             </div>
         </div>
     </div>
@@ -65,10 +65,10 @@
         <div class="row align-items-center">
             <div class="col-lg-12 py-5 pt-py-lg-0 px-5">
                 <h6 class="text-primary text-uppercase font-weight-bold">Get A Quote</h6>
-                <h1 class="mb-4">Request A Free Quote</h1>
-                <p class="mb-4">Looking for reliable and cost-effective logistics solutions? Get in touch with us
-                    today! Simply fill out our form, and we’ll provide you with a customized quote tailored to your
-                    specific needs. No obligations, just seamless service and competitive pricing.</p>
+                <h1 class="mb-4">Start Your Journey with a Free Quote</h1>
+                <p class="mb-4">Ready to take your shipping to new heights? Our free quote process is your first step
+                    towards logistics mastery. Send us your details, and we’ll offer a tailored quote, absolutely free.
+                    No commitment—just exceptional service and fair pricing.</p>
                 <div class="row">
                     <div class="col-sm-4">
                         <h1 class="text-primary mb-2" data-toggle="counter-up">25</h1>
@@ -126,17 +126,47 @@
 
 
 
-            <div class="col-lg-12 col-md-12 text-center mb-5" style=" margin: 0 27%; max-width: 51%; ">
+            <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                    <i class="fa fa-2x fa-truck text-dark pr-3"></i>
-                    <h6 class="text-white font-weight-medium m-0">Land Transport</h6>
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-medium m-0">Dedicated Last-Mile Delivery</h6>
                 </div>
-
+                <p>We provide specialized last-mile delivery services, ensuring your goods reach their final destination
+                    efficiently and on time.</p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
-            <p>Our land transport services ensure reliable, efficient, and flexible delivery of goods across local
-                and regional routes. </p>
-            <a class="border-bottom text-decoration-none" href="">Read More</a>
+
+            <div class="col-lg-3 col-md-3 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-medium m-0">Flexible Fleet Solutions</h6>
+                </div>
+                <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
+                    requirements. </p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
+            </div>
+
+            <div class="col-lg-3 col-md-3 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-medium m-0">Flexible Fleet Solutions</h6>
+                </div>
+                <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
+                    requirements. </p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
+            </div>
+            <div class="col-lg-3 col-md-3 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
+                    {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
+                    <h6 class="text-white font-weight-medium m-0">Flexible Fleet Solutions</h6>
+                </div>
+                <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
+                    requirements. </p>
+                {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
+            </div>
+
         </div>
+
     </div>
 </div>
 <!-- Services End -->
