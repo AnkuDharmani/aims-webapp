@@ -103,7 +103,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive1.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive1.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Antonio</h5>
@@ -124,7 +124,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive2.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive2.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Johnson</h5>
@@ -145,7 +145,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive3.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive3.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Smith</h5>
@@ -166,7 +166,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive4.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive4.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Jimmy</h5>

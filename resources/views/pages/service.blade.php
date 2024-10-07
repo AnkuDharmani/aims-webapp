@@ -141,7 +141,7 @@
                         alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Emily Bernier</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Aims Alberta Logistics exceeded my expectations with their fast and reliable service!
@@ -154,7 +154,7 @@
                         alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Liam Brown</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Their team handled everything with care and professionalism. Highly recommend!</p>
@@ -166,7 +166,7 @@
                         alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Sophie Davis</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Efficient service and great communication. Will definitely approach them again!</p>
@@ -178,7 +178,7 @@
                         alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Noah Allen</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Top-notch logistics support, always on time and dependable!</p>

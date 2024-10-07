@@ -58,13 +58,13 @@
 
                 </p>
             </div>
-            <div class="col-lg-4 text-center text-md-left mb-3 mb-md-0">
+            {{-- <div class="col-lg-4 text-center text-md-left mb-3 mb-md-0">
                 <p class="m-0 text-white">
                     <i class="fa-solid fa-building"></i>
                     Version: {{ env('APP_VERSION') }}
 
                 </p>
-            </div>
+            </div> --}}
             <div class="col-lg-4 text-center text-md-right">
                 <ul class="nav d-inline-flex">
                     <li class="nav-item">

@@ -123,9 +123,6 @@
             <h1 class="mb-4">Best Logistic Services</h1>
         </div>
         <div class="row pb-3">
-
-
-
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
@@ -221,7 +218,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive1.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive1.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Antonio</h5>
@@ -242,7 +239,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive2.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive2.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Johnson</h5>
@@ -263,7 +260,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive3.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive3.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Smith</h5>
@@ -284,7 +281,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team card position-relative overflow-hidden border-0 mb-5">
-                    <img class="card-img-top" src="img/drive4.jpeg" alt="">
+                    <img class="card-img-top" src="img/drive4.png" alt="">
                     <div class="card-body text-center p-0">
                         <div class="team-text d-flex flex-column justify-content-center bg-secondary">
                             <h5 class="font-weight-bold">Jimmy</h5>
@@ -324,7 +321,7 @@
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Emily Bernier</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Aims Alberta Logistics exceeded my expectations with their fast and reliable service!
@@ -337,7 +334,7 @@
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Liam Brown</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Their team handled everything with care and professionalism. Highly recommend!</p>
@@ -349,7 +346,7 @@
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Sophie Davis</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Efficient service and great communication. Will definitely approach them again!</p>
@@ -361,7 +358,7 @@
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ml-3">
                         <h6 class="font-weight-semi-bold m-0">Noah Allen</h6>
-                        <small>- Profession</small>
+                        {{-- <small>- Profession</small> --}}
                     </div>
                 </div>
                 <p class="m-0">Top-notch logistics support, always on time and dependable!</p>

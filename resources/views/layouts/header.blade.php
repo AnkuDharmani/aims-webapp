@@ -34,7 +34,7 @@
                 <div class="align-items-center text-white">
                     <small><i class="fa fa-phone-alt mr-2"></i>+1 780 3401762</small>
                     <small class="px-3">|</small>
-                   
+
                     <small><i class="fa fa-envelope mr-2"></i>info@aimsalbertalogistics.com</small>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                     <a href="{{ url('/contact') }}"
                         class="nav-item nav-link {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
                 </div>
-                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
+                {{-- <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a> --}}
             </div>
         </nav>
     </div>
