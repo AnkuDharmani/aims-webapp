@@ -64,7 +64,7 @@
                     Version: {{ env('APP_VERSION') }}
 
                 </p> --}}
-            </div>
+            </div>  
             <div class="col-lg-4 text-center text-md-right">
                 <ul class="nav d-inline-flex">
                     <li class="nav-item">
