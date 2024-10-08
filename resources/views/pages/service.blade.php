@@ -36,11 +36,11 @@
             <div class="col-lg-3 col-md-3 text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                     {{-- <i class="fa fa-2x fa-truck text-dark pr-3"></i> --}}
-                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Customizable Fleet Services
+                    <h6 class="text-white font-weight-medium m-0" style="font-size:larger">Real-Time Shipment Tracking
                     </h6>
                 </div>
-                <p>We offer a diverse range of fleet options to accommodate varying demand levels and specific product
-                    requirements. </p>
+                <p>Monitor your shipments from dispatch to delivery, providing you with peace of mind and transparency
+                    throughout the process.</p>
                 {{-- <a class="border-bottom text-decoration-none" href="">Read More</a> --}}
             </div>
 
@@ -65,6 +65,7 @@
             </div>
 
         </div>
+
     </div>
 </div>
 <!-- Services End -->
