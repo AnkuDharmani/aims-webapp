@@ -32,8 +32,7 @@ class ContactFormMail extends Mailable
      */
     public function build()
     {
-       return $this->from($this->mailData['email']) // Update with a proper sender email
-                    ->subject($this->mailData['subject'])
+       return $this->subject($this->mailData['subject'])
                     ->view('emails.contact')
                     ->with('mailData', $this->mailData);
     }
