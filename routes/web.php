@@ -22,4 +22,6 @@ Route::get('/contact', [SiteController::class, 'contact']);
 Route::get('/price', [SiteController::class, 'price']);
 Route::get('/service', [SiteController::class, 'service']);
 Route::get('/single', [SiteController::class, 'single']);
+Route::get('/join-our-team', [SiteController::class, 'joinTeam']);
+Route::get('/join-now', [SiteController::class, 'joinNow']);
 Route::post('/send-contact', [ContactController::class, 'send'])->name('contact.send');

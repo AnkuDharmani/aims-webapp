@@ -33,4 +33,11 @@ class SiteController extends Controller
     public function blog(){
         return view('pages.blog');
     }
+
+    public function joinTeam(){
+        return view('pages.join_team');
+    }
+    public function joinNow(){
+        return view('pages.join_now');
+    }
 }

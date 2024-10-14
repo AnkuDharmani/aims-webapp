@@ -26,9 +26,9 @@
                             <a class="text-white mb-2" href="/about"><i class="fa fa-angle-right mr-2"></i>About Us</a>
                             <a class="text-white mb-2" href="/service"><i class="fa fa-angle-right mr-2"></i>Our
                                 Services</a>
-                            {{-- <a class="text-white mb-2" href="/price"><i class="fa fa-angle-right mr-2"></i>Pricing
-                                Plan</a> --}}
+                            <a class="text-white mb-2" href="/join-our-team"><i class="fa fa-angle-right mr-2"></i>Join our Team</a> 
                             <a class="text-white" href="/contact"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                         
                         </div>
                     </div>
                 </div>
