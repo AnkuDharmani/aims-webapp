@@ -35,7 +35,7 @@
                 <p class="mb-4">Our team thrives on overcoming challenges and takes great pride in consistently exceeding customer expectations. We are committed to fostering a diverse and inclusive workplace, where everyone contributes to making our service exceptional.</p>
 
                 <p> We’re thrilled to expand our operations across Edmonton and are currently recruiting for several key positions.</p>
-                <a href=" "disabled>Coming soon</a>
+                <a href="/join-now">Coming soon</a>
 
             </div>
         </div>
