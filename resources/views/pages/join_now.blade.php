@@ -76,7 +76,7 @@
                 <h4 class="mb-2">Questions</h4>
                 <!-- Question 1 -->
                 <div class="mb-3">
-                    <label for="requirements" class="form-label">1) Do you need requirements for this position?<sup style="color:red">*</sup></label>
+                    <label for="requirements" class="form-label">1) Do you meet all the requirements for this position?<sup style="color:red">*</sup></label>
                     <select name="requirements" id="requirements" class="form-control form-select">
                         <option value="">Select...</option>
                         <option value="yes">Yes</option>
@@ -125,31 +125,31 @@
 
                 <!-- Question 4 -->
                 <div class="mb-3">
-                    <label for="years_with_license" class="form-label">4) Number of years with a driver's license<sup style="color:red">*</sup></label>
+                    <label for="years_with_license" class="form-label">4) Number of years with a Driver's license?<sup style="color:red">*</sup></label>
                     <input type="number" name="years_with_license" id="years_with_license" class="form-control">
                 </div>
 
                 <!-- Question 5 -->
                 <div class="mb-3">
-                    <label for="years_driving_commercial" class="form-label">5) Number of years driving large commercial vehicles<sup style="color:red">*</sup></label>
+                    <label for="years_driving_commercial" class="form-label">5) Number of years driving large commercial vehicles? (1 ton truck/van or larger)<sup style="color:red">*</sup></label>
                     <textarea name="years_driving_commercial" id="years_driving_commercial" rows="4" class="form-control"></textarea>
                 </div>
 
                 <!-- Question 6 -->
                 <div class="mb-3">
-                    <label for="customer_service_experience" class="form-label">6) Tell us about your customer service experience<sup style="color:red">*</sup></label>
+                    <label for="customer_service_experience" class="form-label">6) Tell us about your customer service experience.<sup style="color:red">*</sup></label>
                     <textarea name="customer_service_experience" id="customer_service_experience" rows="4" class="form-control"></textarea>
                 </div>
 
                 <!-- Question 7 -->
                 <div class="mb-3">
-                    <label for="skill_level" class="form-label">7) Tell us about your skill level using desktop and mobile applications<sup style="color:red">*</sup></label>
+                    <label for="skill_level" class="form-label">7) Tell us about your skill level using desktop and mobile applications.<sup style="color:red">*</sup></label>
                     <textarea name="skill_level" id="skill_level" rows="4" class="form-control"></textarea>
                 </div>
 
                 <!-- Question 8 -->
                 <div class="mb-3">
-                    <label for="work_safety" class="form-label">8) How do you feel about work safety?<sup style="color:red">*</sup></label>
+                    <label for="work_safety" class="form-label">8) Tell us how do you feel about work safety <sup style="color:red">*</sup></label>
                     <textarea name="work_safety" id="work_safety" rows="4" class="form-control"></textarea>
                 </div>
 
@@ -172,10 +172,25 @@
         $('#jobApplicationForm').on('submit', function(e) {
             e.preventDefault(); // Prevent the default form submission
 
+            // Gather selected availability days as a comma-separated string
+            var selectedDays = [];
+            $('input[name="availability_days[]"]:checked').each(function() {
+                selectedDays.push($(this).val());
+            });
+            var availabilityDaysString = selectedDays.join(',');
+
+            // Append the availabilityDaysString to the form data
+            var formData = $(this).serializeArray(); // Serialize the form
+            formData.push({
+                name: 'availability_days',
+                value: availabilityDaysString
+            }); // Add the availability_days field as a string
+
+            // Send the form data via AJAX
             $.ajax({
                 url: "{{ route('driver.store') }}", // Update with your route
                 method: 'POST',
-                data: $(this).serialize(),
+                data: formData, // Send the serialized form data
                 success: function(response) {
                     // Handle success, e.g., show a success message
                     alert('Application submitted successfully!');
