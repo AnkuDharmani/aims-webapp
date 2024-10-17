@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AIMS Alberta Email</title>
     <style>
         body {
@@ -31,6 +30,7 @@
         .email-header img {
             max-width: 50px;
             vertical-align: middle;
+            filter: invert(1);
         }
 
         .email-header h1 {
@@ -82,7 +82,6 @@
             }
         }
     </style>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 </head>
 
@@ -92,7 +91,7 @@
         <!-- Header -->
         <div class="email-header">
             <h1 class="m-0 display-5 text-uppercase text-primary">
-                <img src='https://aimsalbertalogistics.com/img/lorry.png' style="margin-right:20px;filter:invert(1); " />Aims Alberta Logistics
+                <img src='https://aimsalbertalogistics.com/img/lorry.svg' style="margin-right:20px" />Aims Alberta Logistics
             </h1>
         </div>
 
