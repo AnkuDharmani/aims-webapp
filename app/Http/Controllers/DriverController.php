@@ -30,64 +30,49 @@ class DriverController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        // dd('test');
+  
+        $validated = $request->validate([
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email|unique:drivers,email',
+            'mobile' => 'required|string|unique:drivers,mobile',
+            'street' => 'required|string|max:255',
+            'street_code' => 'required|string|max:255',
+            'city_town_suburb' => 'required|string|max:255',
+            'postcode_zipcode' => 'required|string|max:255',
+            'country' => 'required|string|max:255',
+            'state_region_province' => 'required|string|max:255',
+            'linkedin_url' => 'nullable|url',
+            'requirements' => 'required|string',
+            'availability_days' => 'required|string', 
+            'driving_experience' => 'required|string',
+            'years_with_license' => 'required|integer|min:0',
+            'years_driving_commercial' => 'nullable|string',
+            'customer_service_experience' => 'nullable|string',
+            'skill_level' => 'nullable|string',
+            'work_safety' => 'nullable|string',
+            'successful_driver' => 'nullable|string',
+        ]);
 
-            // Validate the request data
-            $validated = $request->validate([
-                'first_name' => 'required|string|max:255',
-                'last_name' => 'required|string|max:255',
-                'email' => 'required|email|unique:drivers,email',
-                'mobile' => 'required|string|unique:drivers,mobile',
-                'street' => 'required|string|max:255',
-                'street_code' => 'required|string|max:255',
-                'city_town_suburb' => 'required|string|max:255',
-                'postcode_zipcode' => 'required|string|max:255',
-                'country' => 'required|string|max:255',
-                'state_region_province' => 'required|string|max:255',
-                'linkedin_url' => 'nullable|url',
-                'requirements' => 'required|string',
-                'availability_days' => 'required|string', // Validate as a string since it's being passed as a comma-separated string
-                'driving_experience' => 'required|string',
-                'years_with_license' => 'required|integer|min:0',
-                'years_driving_commercial' => 'nullable|string',
-                'customer_service_experience' => 'nullable|string',
-                'skill_level' => 'nullable|string',
-                'work_safety' => 'nullable|string',
-                'successful_driver' => 'nullable|string',
-            ]);
-    
-            // Convert availability_days back into an array
-         
-            $driverData = $validated;
-            unset($driverData['availability_days']); // Remove availability_days before inserting
+        $driverData = $validated;
+            unset($driverData['availability_days']); 
             
-            $driver = Driver::create($driverData); // Create the driver
+            $driver = Driver::create($driverData); 
     
-            // Convert availability_days back into an array (from comma-separated string)
-            $availabilityDaysArray = explode(',', $validated['availability_days']);
+        $availabilityDaysArray = explode(',', $validated['availability_days']);
     
-            // Save availability_days separately (You can store them as JSON or in a related table)
-            $driver->availability_days = json_encode($availabilityDaysArray); // Example: Save as JSON in the same table (adjust based on your database structure)
-           $data= $driver->save(); 
+            $driver->availability_days = json_encode($availabilityDaysArray); 
+               $data= $driver->save(); 
            if($data)
            {
             $mailData = [
                 'first_name' => $validated['first_name'],
                 'last_name' => $validated['last_name'],
             ];
-    
-            // Send a thank you email
             Mail::to($validated['email'])->send(new ThanksDrvierMail($mailData));
-    
             return response()->json(['success' => 'Application submitted successfully!']);
-           }
-               
-            
-     
-        
-        
-      
+        }            
+          
     }
 
     /**

@@ -90,8 +90,9 @@
     <div class="email-container">
         <!-- Header -->
         <div class="email-header">
-            <h1 class="m-0 display-5 text-uppercase text-primary">
-               Aims Alberta Logistics
+        <img src="https://aimsalbertalogistics.com/truck.png" style="filter: invert(1);"/> 
+         <h1 class="m-0 display-5 text-uppercase text-primary">
+              Aims Alberta Logistics
             </h1>
         </div>
 
