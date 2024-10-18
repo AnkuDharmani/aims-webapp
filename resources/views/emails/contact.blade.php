@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>AIMS Alberta Email</title>
+    <title>AIMS Alberta Logistics</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,9 +90,7 @@
     <div class="email-container">
         <!-- Header -->
         <div class="email-header">
-            <h1 class="m-0 display-5 text-uppercase text-primary">
-                <img src='https://aimsalbertalogistics.com/img/truck.png' style="margin-right:20px" />Aims Alberta Logistics
-            </h1>
+            <h1 class="m-0 display-5 text-uppercase text-primary"> Aims Alberta Logistics </h1>
         </div>
         <!-- Body -->
         <div class="email-body">
