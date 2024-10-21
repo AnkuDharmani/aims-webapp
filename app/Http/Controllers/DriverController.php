@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Driver;
 use App\Mail\ThanksDrvierMail;
+use App\Mail\CCMailForDriver;
 use Illuminate\Support\Facades\Mail;
 
 class DriverController extends Controller
@@ -30,7 +31,7 @@ class DriverController extends Controller
      */
     public function store(Request $request)
     {
-  
+
         $validated = $request->validate([
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
@@ -44,7 +45,7 @@ class DriverController extends Controller
             'state_region_province' => 'required|string|max:255',
             'linkedin_url' => 'nullable|url',
             'requirements' => 'required|string',
-            'availability_days' => 'required|string', 
+            'availability_days' => 'required|string',
             'driving_experience' => 'required|string',
             'years_with_license' => 'required|integer|min:0',
             'years_driving_commercial' => 'nullable|string',
@@ -55,24 +56,31 @@ class DriverController extends Controller
         ]);
 
         $driverData = $validated;
-            unset($driverData['availability_days']); 
-            
-            $driver = Driver::create($driverData); 
-    
+        unset($driverData['availability_days']);
+
+        $driver = Driver::create($driverData);
+
         $availabilityDaysArray = explode(',', $validated['availability_days']);
-    
-            $driver->availability_days = json_encode($availabilityDaysArray); 
-               $data= $driver->save(); 
-           if($data)
-           {
+
+        $driver->availability_days = json_encode($availabilityDaysArray);
+
+        $data = $driver->save();
+        if ($data) {
             $mailData = [
                 'first_name' => $validated['first_name'],
                 'last_name' => $validated['last_name'],
             ];
             Mail::to($validated['email'])->send(new ThanksDrvierMail($mailData));
+            $CCMail = [
+                'first_name' => $validated['first_name'],
+                'last_name' => $validated['last_name'],
+                'email'=>$validated['email'],
+                'phone' => $validated['mobile'],
+            ];
+            Mail::to('info@aimsalbertalogistics.com')->send(new CCMailForDriver($CCMail));
+
             return response()->json(['success' => 'Application submitted successfully!']);
-        }            
-          
+        }
     }
 
     /**
